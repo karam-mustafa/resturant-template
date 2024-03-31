@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restoran</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Paytone+One&family=Poppins:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header-section">
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-main-color">
+        <div class="container">
+          <a class="navbar-brand text-main-color title" href="#">
+            <i class="fa-solid fa-utensils mx-1"></i> Sahtain</a
+          >
+          <button
+            class="navbar-toggler bg-main-color-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">Menu</a>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+              <li class="nav-item mx-2">
+                <button type="button" class="btn bg-second-color">
+                  BOOK A TABLE
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row header-body h-100">
+        <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+          <h1 class="text-white">Enjoy Our Delicious Meal</h1>
+          <p class="text-white">
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+            lorem sit clita duo justo magna dolore erat amet
+          </p>
+          <button type="button" class="btn bg-second-color">
+            BOOK A TABLE
+          </button>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img class="w-100 h-100" src="./images/hero.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="services container my-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <i class="fa-solid fa-user fa-3x text-main-color"></i>
+              </h5>
+              <h6 class="card-subtitle mb-3 fw-bold">Master Chefs</h6>
+              <p class="card-text mb-3">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <i class="fa-solid fa-utensils fa-3x text-main-color"></i>
+              </h5>
+              <h6 class="card-subtitle mb-3 fw-bold">Master Chefs</h6>
+              <p class="card-text mb-3">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <i class="fa-solid fa-cart-shopping fa-3x text-main-color"></i>
+              </h5>
+              <h6 class="card-subtitle mb-3 fw-bold">Master Chefs</h6>
+              <p class="card-text mb-3">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <i class="fa-solid fa-phone-flip fa-3x text-main-color"></i>
+              </h5>
+              <h6 class="card-subtitle mb-3 fw-bold">Master Chefs</h6>
+              <p class="card-text mb-3">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="welcome-section container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 col-md-12">
+          <div class="row d-flex align-items-end mb-2">
+            <img class="w-50" src="./images/about-1.jpg" />
+            <img class="w-30" src="./images/about-2.jpg" />
+          </div>
+          <div class="row d-flex align-items-start">
+            <img class="ww-image" src="./images/about-3.jpg" />
+            <img class="w-50" src="./images/about-4.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-12">
+          <div>
+            <div class="second-font">
+              <h2>About us</h2>
+            </div>
+
+            <h2>
+              Welcome to
+              <i class="fa-solid fa-utensils text-main-color"></i> Sahtain
+            </h2>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              soluta est vel ipsa ex deleniti ad cupiditate aperiam natus quam
+              maiores, quibusdam vero architecto, consequuntur numquam obcaecati
+              perspiciatis, explicabo doloremque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              soluta est vel ipsa ex deleniti ad cupiditate aperiam natus quam
+              maiores, quibusdam vero architecto, consequuntur numquam obcaecati
+              perspiciatis, explicabo doloremque.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6 col-lg-6 col-md-6">
+              <div class="widght">
+                <div class="counter">15</div>
+                <div class="meaning">
+                  Years of
+                  <div>EXPERIENCE</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-6 col-md-6">
+              <div class="widght">
+                <div class="counter">50</div>
+                <div class="meaning">
+                  Popular
+                  <div>MASTER CHEFS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn bg-second-color my-5 read-more-btn">
+            READ MORE
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

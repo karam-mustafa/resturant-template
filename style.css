@@ -40,17 +40,17 @@ html {
   max-height: 500px;
   animation: rotate 50s linear infinite;
 }
-.card {
+.services .card {
   transition: 0.1s all ease-in-out;
   cursor: pointer;
   border: none;
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
 }
-.card i {
+.services .card i {
   transition: 0.1s all ease-in-out;
 }
-.card:hover,
-.card:hover i {
+.services .card:hover,
+.services .card:hover i {
   background-color: #fea116 !important;
   color: white !important;
 }
@@ -69,6 +69,40 @@ html {
   top: 25px;
   right: -39px;
 }
+.food-menu .second-font::after,
+.team-members .second-font::after {
+  content: "";
+  width: 56px;
+  height: 2px;
+  background-color: #fea116 !important;
+  position: absolute;
+  top: 25px;
+  right: -60px;
+}
+
+.food-menu .second-font::before,
+.team-members .second-font::before {
+  content: "";
+  width: 56px;
+  height: 2px;
+  background-color: #fea116 !important;
+  position: absolute;
+  top: 25px;
+  left: -60px;
+}
+.team-members .second-font {
+  width: 250px;
+}
+.contac-us .second-font::after {
+  content: "";
+  width: 56px;
+  height: 2px;
+  background-color: #fea116 !important;
+  position: absolute;
+  top: 25px;
+  right: -60%;
+}
+
 .widght {
   border-left: 5px solid #fea116;
   padding-left: 15px;
@@ -102,7 +136,69 @@ html {
   margin-left: 90px;
 }
 .w-30 {
-    width: 30%;
+  width: 30%;
+}
+.f-20 {
+  font-size: 20px !important;
+}
+.f-42 {
+  font-size: 42px !important;
+}
+.border-bottm {
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+input {
+  font-size: 16px;
+}
+input::placeholder {
+  text-indent: 10px;
+}
+input:focus {
+  font-size: 14px;
+}
+
+.chef .image-area {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.chef .image-area img {
+  transition: 0.5s all ease-in-out;
+}
+.chef .image-area:hover img {
+  transform: scale(1.1);
+}
+.chef .image-area img {
+  width: 100%;
+  height: 100%;
+}
+.chef {
+  height: calc(100% - 60px);
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+}
+.chef:hover {
+  height: 100%;
+}
+.food-menu-image {
+  width: 88px;
+  height: auto;
+}
+.chef-media {
+  margin-bottom: -22px;
+}
+.media-item {
+  width: 50px;
+  height: 50px;
+  background: #fea116 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 @keyframes rotate {
   100% {
